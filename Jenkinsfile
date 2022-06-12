@@ -20,6 +20,11 @@ pipeline {
          steps { 
            echo "deploying application..."
          }
+           
+         stage("artifact") { 
+         steps { 
+           echo "create artifact..."
+         }           
 
      }
   
